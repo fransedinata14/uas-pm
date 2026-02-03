@@ -37,7 +37,6 @@ class ChatData {
   });
 }
 
-// --- TAMPILAN UTAMA ---
 class ChatListScreen extends StatelessWidget {
   const ChatListScreen({super.key});
 
@@ -85,8 +84,6 @@ class ChatListScreen extends StatelessWidget {
           child: ListView.separated(
             itemCount: chatList.length,
             
-            // --- BAGIAN YANG DIUBAH ---
-            // Pembatas dikembalikan menjadi jarak kosong biasa (SizedBox)
             separatorBuilder: (context, index) => const SizedBox(height: 15),
             
             itemBuilder: (context, index) {
@@ -99,7 +96,6 @@ class ChatListScreen extends StatelessWidget {
   }
 }
 
-// --- WIDGET KARTU CHAT ---
 class ChatCard extends StatelessWidget {
   final ChatData data;
 
