@@ -46,7 +46,7 @@ class ChatListScreen extends StatelessWidget {
     final List<ChatData> chatList = [
       ChatData(
         name: "Frans Edinata Sembiring",
-        message: "UNPRI THE BEST CHOICE!",
+        message: "243303611309",
         date: "Januari",
         imagePath: "images/frans.png",
       ),
